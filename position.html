@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="css/reset2.css">
+<meta charset="utf-8">
+<title>Position Practure</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img{width:100%;
+        height:auto;}
+
+   h2{
+	   position:absolute;
+	   top:150px;
+	   left:auto;
+	   /*position:fixed;*/
+	   }
+
+#wrap{
+	        position:relative;
+		    width:100%;
+			height:400px;
+			background:#F93;
+			left:100px;
+			top:100px;
+			}
+
+.littlemydiv{
+	         position:relative;
+					 width:200px;
+					 height:200px;
+					 background:#FC6;
+					 margin-left:50px;
+					 margin-top:50px;
+					 margin-right:220px;
+					 float:left;
+					 z-index:2;
+					 }
+
+.bigmydiv{
+	         position:absolute;
+					 width:100px;
+					 height:100px;
+					 background:#0C3;
+					 top:0px;
+					 left:0px;
+					 z-index:1;
+					 }
+
+
+
+</style>
+</head>
+
+<body>
+     <div id="wrap">
+     <!--<h2>포지션...이라고...!?</h2>-->
+     <div><img src="sky.jpg" width="400px" height="auto"></div>
+     <div class="littlemydiv">HyperAuraBlade</div>
+     <div class="littlemydiv">HyperAuraBlade</div>
+            <div class="bigmydiv">HyperText</div>
+     </div>
+</body>
+</html>
